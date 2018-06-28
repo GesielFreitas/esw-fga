@@ -87,9 +87,6 @@ Há varias maneiras de adaptar componentes para o Rails, uma vez que este framew
 
 **Herança:** Esta tecnica é usada para integrar componentes onde os aspectos internos estão disponíveis para o Rails tais como gems com característica de framework onde os pontos de extensão se comportam como caixa-branca
 
-Considerando somente os componentes que Todos os pontos de extensão do Rails são reutilizados utilizando Herança uma vez que as classes dos componentes são herdadas para implementação e/ou utilização das funcionalidades desejadas.
-
-
 ## Pergunta 3
 ### 3 - Quais são os modos  geralmente utilizados para composição componentes / frameworks?<br>
 - Como se dá a comunicação entre componentes / framework?<br>
