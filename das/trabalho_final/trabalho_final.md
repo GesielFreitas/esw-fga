@@ -84,6 +84,7 @@ Suas interfaces de comunicação são definidas como classes abstratas e/ou conc
 Há varias maneiras de adaptar componentes para o Rails, uma vez que este framework é considerado framework de framework, vamos analisar algumas tecnicas utilizadas
 
 **Glue-code:** está tecnica é usada para integrar integrar componentes que não são compativeis como gems que não tem caracteristicas de framework.
+
 **Herança:** Esta tecnica é usada para integrar componentes onde os aspectos internos estão disponíveis para o Rails tais como gems com característica de framework onde os pontos de extensão se comportam como caixa-branca
 
 Considerando somente os componentes que Todos os pontos de extensão do Rails são reutilizados utilizando Herança uma vez que as classes dos componentes são herdadas para implementação e/ou utilização das funcionalidades desejadas.
